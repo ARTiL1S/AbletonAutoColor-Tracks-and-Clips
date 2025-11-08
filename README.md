@@ -17,25 +17,15 @@ Works on both macOS and Windows.
 This assumes you’re using Ableton’s default User Library folder.
 If you’ve relocated your User Library, just make sure to create a Remote Scripts folder inside your current User Library and follow the same steps from there.
 
-1. Find your Ableton User Library
-
-Mac: /Users/{your_username}/Music/Ableton/User Library
-
-Windows: \Users\[your_username]\Documents\Ableton\User Library
-
-2. If there isn’t one already, create a folder named Remote Scripts inside your User Library.
-
-3. Inside that folder, make another folder called ColorChanger.
-
-4. Download the following two files and place them inside Remote Scripts/ColorChanger:
-
-"ColorChanger.py"
-
-"__init__.py"
-
-5. Launch or restart Ableton Live.
-
-6. In Live, go to Preferences → Link/Tempo/MIDI, then choose ColorChanger from the Control Surface list. Set both Input and Output to None.
+1. Mac users:  
+   Go to `/Users/{your_username}/Music/Ableton/User Library`  
+   Windows users:  
+   Go to `\Users\[username]\Documents\Ableton\User Library`
+2. Create a folder 'Remote Scripts' if it's not already created.
+3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
+4. Download **both** .py files, "Colorchanger.py" and "\_\_init\_\_.py", and place them in the 'Remote Scripts/ColorChanger' folder.
+5. Restart or Open Ableton Live
+6. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.
 
 ### Important Notes
 
