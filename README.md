@@ -34,8 +34,6 @@ Live loads and compiles Python control surface scripts only at startup, so any c
 
 Once active, the script will automatically apply color assignments based on your defined track names.
 
-For more advanced behavior (such as live updating color layouts without restarting Live), see the TrueAutoColor version — a standalone release that extends this idea.
-
 ## Ableton Color Reference
 <div style="text-align:center; border: 2px solid black; padding: 5px;"> <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" /> </div>
 
