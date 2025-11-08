@@ -34,11 +34,3 @@ https://github.com/CoryWBoris/AbletonAutoColor/tree/main?tab=readme-ov-file#able
 If you look at the picture above, the colors start at '0' and go to '69' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 69.
 
 Tested and working on Ableton 11+, but this could work for older versions if the python script were written to be backwards compatible for python 2.
-
-**Past Fixes:**
-
-I fixed the inability to change colors of previously named tracks on load. It now does that, yeah.
-
-I fixed the inability to change all variations of nested group tracks. It also that does.
-
-Also I fixed the code preventing a user from entering a string into the dictionary containing caps without it breaking the name recognition. By default the code is not sensitive to caps. I think this makes sense because I genuinely believe the last thing someone should be concerned with when naming a track is a capital letter making the diference between a color change. That feeling at first glance feels like it wouldn't be conducive to the in the moment flow necessary when creating art.
