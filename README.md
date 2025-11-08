@@ -1,36 +1,57 @@
-<div style="text-align:center; border: 2px solid black; padding: 5px;">
-  <img src="AbletonColorPalette_Crop2.jpg" style="width:35%;" />
-</div>
+<div style="text-align:center; border: 2px solid black; padding: 5px;"> <img src="AbletonColorPalette_Crop2.jpg" style="width:35%;" /> </div>
+AbletonAutoColor (Forked Edition)
 
+Inspired by the original project by Cory Boris
+Original repo: CoryWBoris/AbletonAutoColor
 
+Overview
 
-# AbletonAutoColor
-![Stability Badge](https://img.shields.io/badge/-stable-blue)  
-Originally By: Cory Boris  
-https://github.com/CoryWBoris/AbletonAutoColor/tree/main?tab=readme-ov-file#ableton-color-palette
+AbletonAutoColor automatically assigns colors to MIDI and audio tracks in Ableton Live 11 and above, based on the track name — no Max for Live devices or plugins required.
 
-## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live 11+ WITHOUT PLUGINS ;)
+Works on both macOS and Windows.
 
-\*\*for Mac or Windows\*\*
+Installation (Simple 6-Step Setup)
 
-### 6 Steps to setup. -note-, this assumes you are using the default user library folder. If you have moved this folder externally or otherwise, make a Remote Scripts folder inside of whatever user library folder you have pointed Ableton to, and start from step 2:
-1. Mac users:  
-   Go to `/Users/{your_username}/Music/Ableton/User Library`  
-   Windows users:  
-   Go to `\Users\[username]\Documents\Ableton\User Library`
-2. Create a folder 'Remote Scripts' if it's not already created.
-3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
-4. Download **both** .py files, "Colorchanger.py" and "\_\_init\_\_.py", and place them in the 'Remote Scripts/ColorChanger' folder.
-5. Restart or Open Ableton Live
-6. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.
+This assumes you’re using Ableton’s default User Library folder.
+If you’ve relocated your User Library, just make sure to create a Remote Scripts folder inside your current User Library and follow the same steps from there.
 
-**Note**: You can add the 2 mentioned files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect. The reason being is that Ableton compiles python and loads python code into memory when Ableton starts, but not after it loads up. This means for you using the software that in order to change a color layout and have the changes go into effect, you will have the restart Ableton. While I can't change the nature of how Ableton loads control surfaces, I circumvented this inconvenience with the full version of this program called 'TrueAutoColor'. The release details are at the bottom but with the full version you can change the layout without restarting Ableton.
+Find your Ableton User Library
 
-### Ableton Color Palette
-<div style="text-align:center; border: 2px solid black; padding: 5px;">
-  <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" />
-</div>
+Mac: /Users/{your_username}/Music/Ableton/User Library
 
-If you look at the picture above, the colors start at '0' and go to '69' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 69.
+Windows: \Users\[your_username]\Documents\Ableton\User Library
 
-Tested and working on Ableton 11+, but this could work for older versions if the python script were written to be backwards compatible for python 2.
+If there isn’t one already, create a folder named Remote Scripts inside your User Library.
+
+Inside that folder, make another folder called ColorChanger.
+
+Download the following two files and place them inside Remote Scripts/ColorChanger:
+
+ColorChanger.py
+
+__init__.py
+
+Launch or restart Ableton Live.
+
+In Live, go to Preferences → Link/Tempo/MIDI, then choose ColorChanger from the Control Surface list. Set both Input and Output to None.
+
+Important Notes
+
+If you copy the two Python files while Ableton is open, you’ll still need to restart Ableton afterward for the script to activate.
+Live loads and compiles Python control surface scripts only at startup, so any code changes won’t apply until you relaunch.
+
+Once active, the script will automatically apply color assignments based on your defined track names.
+
+For more advanced behavior (such as live updating color layouts without restarting Live), see the TrueAutoColor version — a standalone release that extends this idea.
+
+Ableton Color Reference
+<div style="text-align:center; border: 2px solid black; padding: 5px;"> <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" /> </div>
+
+The image above shows Ableton’s built-in color palette.
+Color indices run from 0 (top-left) to 69 (bottom-right).
+You can assign any of these numbers to track name keywords in your Python dictionary — and you can add as many pairs as you want within that range.
+
+Compatibility
+
+Tested and confirmed working on Ableton Live 11+.
+It may also function on earlier versions if adapted for Python 2 compatibility.
