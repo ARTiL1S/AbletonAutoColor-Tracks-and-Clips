@@ -8,7 +8,7 @@ https://github.com/CoryWBoris/AbletonAutoColor/tree/main?tab=readme-ov-file#able
 
 ## Overview
 
-AbletonAutoColor automatically assigns colors to MIDI and audio tracks in Ableton Live 11 and above, based on the track name — no Max for Live devices or plugins required.
+AbletonAutoColor automatically assigns colors to MIDI and audio tracks in Ableton Live 11 and above, based on the track name. This fork adds extra functionality, such as coloring the clips along with the tracks. Everything else is mostly identical to the original script
 
 Works on both macOS and Windows.
 
@@ -29,9 +29,9 @@ Windows: \Users\[your_username]\Documents\Ableton\User Library
 
 4. Download the following two files and place them inside Remote Scripts/ColorChanger:
 
-ColorChanger.py
+"ColorChanger.py"
 
-__init__.py
+"__init__.py"
 
 5. Launch or restart Ableton Live.
 
