@@ -1,4 +1,5 @@
 <div style="text-align:center; border: 2px solid black; padding: 5px;"> <img src="AbletonColorPalette_Crop2.jpg" style="width:35%;" /> </div>
+
 # AbletonAutoColor (Forked Edition)
 
 Inspired by the original project by Cory Boris
