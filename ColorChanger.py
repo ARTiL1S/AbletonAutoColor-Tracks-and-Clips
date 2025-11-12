@@ -29,6 +29,7 @@ track_colors = {
     "perc": 3,
     "piano": 29,
     "reverb": 67,
+    "rhodes": 29,
     "ride": 3,
     "rim": 3,
     "sample": 39,
@@ -40,7 +41,10 @@ track_colors = {
     "synth": 7,
     "tom": 3,
     "vocal": 40,
-    "vox": 40
+    "vox": 40,
+    "wurli": 29,
+    "wurlitzer": 29
+
 }
 
 
